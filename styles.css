@@ -14,12 +14,12 @@ body{
 
 header{
   grid-area: header;
-  background-color: dimgray;
+
 }
 
 nav{
   grid-area: nav;
-  background-color: darkviolet;
+
 }
 
 main{
@@ -66,7 +66,6 @@ main{
   main{
     width: 90%;
     max-width: 800px;
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 10vh 4vh 25vh 25vh 25vh 10vh;
@@ -115,35 +114,104 @@ main{
 
 #login{
   grid-area: login;
-  background-color: red;
+
 }
 
 #enhance_your_carreer{
-  grid-aread: enhance_your_carreer;
-  background-color: blue;
+  grid-area: enhance_your_carreer;
+
 }
 
 #important_stats{
   grid-area: important_stats;
-  background-color: green;
+
 }
 
 #build_apps{
   grid-area: build_apps;
-  background-color: olive;
+
 }
 
 #build_games{
   grid-area: build_games;
-  background-color: chocolate;
+
 }
 
 #build_websites{
   grid-area: build_websites;
-  background-color: mediumaquamarine;
+
+}
+
+header h1 {
+  font size: 3.25em;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #22638E;
 }
 
 footer{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.options{
+  width: 95%;
+  background-color: white;
+  padding: 10px;
+  border-top: 3px solid #3498db;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.options-link{
+  text-decoration: none;
+  font-size: 0.9em;
+  color: #3498db;
+}
+
+.options-link:hover{
+  color: darkgreen;
+  text-decoration: underline;
+}
+
+.card{
+  background-color: white;
+}
+
+.card-blue{
+  background-color: #9ebcf5;
+}
+
+.card-title{
+  color:white;
+  background-color: #4f97d5;
+  font-size: 1.25em;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+input{
+  width: 85%;
+  color: darkblue;
+  background-color: aliceblue;
+  font-size: 1.25em;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+section{
+  padding: 10px;
+  text-align: center;
+}
+
+
+footer{
   grid-area: footer;
-  background-color: crimson;
+  margin-top: 20px;
+  text-align: center;
 }

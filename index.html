@@ -4,20 +4,81 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
   <link rel="stylesheet" href="styles.css">
   <title>Grid Layout</title>
+  <style>
+
+  </style>
 </head>
 <body>
   <main id="container">
-    <header>HEADER</header>
-    <nav>NAV</nav>
-    <div id="login">LOG-IN</div>
-    <div id="enhance_your_carreer">Enhance Your Career</div>
-    <div id="important_stats">Important Stats</div>
-    <div id="build_apps">Build Apps</div>
-    <div id="build_games">Build Games</div>
-    <div id="build_websites">Build Websites</div>
-    <footer>FOOTER</footer>
+    <header>
+    <h1>CSS Grid Layout</h1>
+
+    </header>
+    <nav class="options">
+      <a href="#" target="_blank" class="options-link">Home</a>
+      <a href="#" target="_blank" class="options-link">Build Apps</a>
+      <a href="#" target="_blank" class="options-link">Build Games</a>
+      <a href="#" target="_blank" class="options-link">Build Websites</a>
+    </nav>
+    <div class="card" id="login">
+      <h2 class="card-title"><span style="font-size: 26px;">LOG-IN &#x1F601;&nbsp;</span></h2>
+      <section>
+        <form>
+          <input type="text" placeholder="Username"><br>
+          <input type="password" placeholder="Password"><br>
+          <input type="submit" placeholder="Submit">
+        </form>
+      </section>
+    </div>
+    <div class="card" id="enhance_your_carreer">
+      <h2 class="card-title">Enhance Your Career</h2>
+      <section>
+        <p>
+          We bring to the table win-win survival strategies to ensure proactive domination. At the end of the day a new normal that has evolved from generation X.
+        </p>
+        <p><a href="" class="btn">Learn more&#8238;</a></p>
+      </section>
+    </div>
+    <div class="card" id="important_stats">
+      <h2 class="card-title">Important Stats</h2>
+      <section>
+        <p>
+          Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps.
+        </p>
+        <p><a href="" class="btn">Learn more&#8238;</a></p>
+      </section>
+    </div>
+    <div class="card-blue" id="build_apps">
+      <h2 class="card-title">Build Apps</h2>
+      <section>
+        <p>
+          Organically grow efficiently extend granular markets view of innovation via workplace credibly iterate fully tested technologies.
+        </p>
+        <p><a href="" class="btn">Learn more&#8238;</a></p>
+      </section>
+    </div>
+    <div class="card-blue" id="build_games">
+      <h2 class="card-title">Build Games</h2>
+      <section>
+        <p>
+          If you deliver ultra-globally, you may have to iterate intuitively. We will aggregate the capability of e-businesses to grow exponentially.
+        </p>
+        <p><a href="" class="btn">Learn more&#8238;</a></p>
+      </section>
+    </div>
+    <div class="card-blue" id="build_websites">
+      <h2 class="card-title">Build Websites</h2>
+      <section>
+        <p>
+          Dynamically  B2C users after installed base benefits. Collaboratively visualize customer directed convergence without revolutionary ROI.
+        </p>
+        <p><a href="" class="btn">Learn more&#8238;</a></p>
+      </section>
+    </div>
+    <footer><img src="images/logo.png" alt=""></footer>
   </main>
 </body>
 </html>
