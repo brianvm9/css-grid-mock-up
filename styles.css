@@ -6,29 +6,34 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
-  background-color: #131633;
+  background-color: #cf1919;
   color: #34495e;
   line-height: 1.5;
 }
 
 header{
   grid-area: header;
+
 }
 
 nav{
   grid-area: nav;
+  margin: 0 auto;
 }
 
 #login{
   grid-area: login;
+
 }
 
 #enhance_your_carreer{
   grid-area: enhance_your_carreer;
+
 }
 
 #important_stats{
   grid-area: important_stats;
+
 }
 
 #build_apps{
@@ -37,10 +42,12 @@ nav{
 
 #build_games{
   grid-area: build_games;
+
 }
 
 #build_websites{
   grid-area: build_websites;
+
 }
 
 header h1{
@@ -48,14 +55,14 @@ header h1{
   text-align: center;
   color: white;
   margin-bottom: 20px;
-  text-shadow: 2px 2px #22638E;
+  text-shadow: 2px 2px #e78200;
 }
 
 .options{
   width: 95%;
   background-color: white;
   padding: 10px;
-  border-top: 3px solid #3498db;
+  border-top: 3px solid #e78200;
   border-radius: 3px;
 
   display: flex;
@@ -65,7 +72,7 @@ header h1{
 
 .options-link{
   text-decoration: none;
-  font-size: .9em;
+  font-size: 0.9em;
   color: #3498db;
 }
 
@@ -107,6 +114,11 @@ input{
   text-align: center;
 }
 
+section{
+  padding: 10px;
+  text-align: center;
+}
+
 section img{
   max-width: 100%;
 }
@@ -124,6 +136,20 @@ section img{
 
 .btn:hover{
   background-color: #3cb0fd;
+}
+
+.graphs{
+  font-size: 100px;
+  line-height: 1;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.profile{
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    border: 6px solid #4f97d5;
 }
 
 @media screen and (min-width: 1100px){
